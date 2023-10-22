@@ -1,13 +1,15 @@
 import * as classes from "./css/index.scss";
 
-import { home } from "./scripts/home";
+import { HomeComponent } from "./components/Pages/Home/HomeComponent";
 
 const app = {
   init() {
-    home.init();
+    customElements.define("home-component", HomeComponent);
+    const homeComponent = document.querySelector("home-component");
+    homeComponent.init();
   },
 };
 
 app.init();
 
-document.body.className = classes.body;
+// document.body.className = classes.body;
