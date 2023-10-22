@@ -1,2 +1,2 @@
 # Sway
-An unpredictable way for building webapps with ParcelJS 
+This is a boilerplate for a vanilla TypeScript project.
