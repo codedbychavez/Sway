@@ -1,2 +1,2 @@
 # Sway
-This is a boilerplate for a vanilla TypeScript project.
+Sway! - Vanilla TypeScript with Parcel.js
